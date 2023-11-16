@@ -1,0 +1,27 @@
+# dependencies
+**/reports
+**/node_modules
+**/dist
+/.pnp
+.pnp.js
+.idea
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local env files
+.env
+
+.secrets/
+
+# ignore yarn locks, use NPM for this project
+yarn.lock
+.babel-cache
+
+tsconfig.tsbuildinfo
